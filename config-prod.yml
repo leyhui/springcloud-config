@@ -1,3 +1,8 @@
-config:
+config-info:
   profile: prod
-  version: 1.0
+  version: 2.0
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka,http://localhost:7003/eureka
